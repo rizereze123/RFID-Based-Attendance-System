@@ -10,15 +10,13 @@
 #define led_merah D7
 #define led_hijau D8
 
-const char* ssid     = "123";
-const char* password = "admin123";
+const char* ssid     = "your SSID wifi";
+const char* password = "your password wifi";
 
 String 
-host = "http://192.168.0.100",
-device_token = "7d0cbb45ce7748858eb74b6c3efadd03";
-//d058a38558054a83a1fbb7baaf330fc9
-//4477f222e5bc4b55a01884619c13da0a
-//7d0cbb45ce7748858eb74b6c3efadd03
+host = "http://xxx.xxx.xxx.xxx",
+device_token = "XXXXXXXXXXXXXXXX";
+
 void setup() {
 
   Serial.begin(115200);
